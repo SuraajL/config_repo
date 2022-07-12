@@ -20,4 +20,4 @@ spring:
       port: 27017
       host: localhost
       auto-index-creation: true
-      uri: mongodb://rootuser:rootpass@localhost:27017/person
+      url: mongodb://rootuser:rootpass@localhost:27017/person
