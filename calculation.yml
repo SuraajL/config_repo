@@ -1,0 +1,23 @@
+server:
+  port: 8084
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
+spring:
+  application:
+    name: calculation
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: person
+      port: 27017
+      host: localhost
+    rabbitmq:
+      addresses: localhost:5672
