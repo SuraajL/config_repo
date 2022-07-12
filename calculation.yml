@@ -19,3 +19,13 @@ spring:
       database: taxCalc
       port: 27017
       host: localhost
+  rabbitmq:
+    addresses: localhost:5672
+
+rabbitmq:
+  exchanges:
+    internal: internal.exchange
+  queue:
+    notification: notification.queue
+  routing-keys:
+    internal-notification: internal.notification.routing-key
