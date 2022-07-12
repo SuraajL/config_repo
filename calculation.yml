@@ -19,8 +19,8 @@ spring:
       database: person
       port: 27017
       host: localhost
-    rabbitmq:
-      addresses: localhost:5672
+  rabbitmq:
+    addresses: localhost:5672
 
 rabbitmq:
   exchanges:
