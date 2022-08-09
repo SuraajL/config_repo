@@ -20,7 +20,7 @@ spring:
       port: 27017
       host: localhost
   rabbitmq:
-    addresses: localhost:5672
+    addresses: rabbitmq:5672
 
 rabbitmq:
   exchanges:
