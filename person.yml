@@ -19,3 +19,4 @@ spring:
       port: 27017
       host: mongodb
       auto-index-creation: true
+      uri: mongodb://rootuser:rootpass@mongodb:27017/taxCalc
