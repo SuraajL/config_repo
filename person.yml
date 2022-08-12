@@ -17,5 +17,5 @@ spring:
       password: rootpass
       database: taxCalc
       port: 27017
-      host: mongodb
+      host: abc
       auto-index-creation: true
