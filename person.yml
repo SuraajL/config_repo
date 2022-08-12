@@ -10,7 +10,3 @@ eureka:
 spring:
   application:
     name: person
-  data:
-    mongodb:
-      authentication-database: admin
-      auto-index-creation: true
