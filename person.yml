@@ -13,3 +13,5 @@ spring:
       port: 27017
       host: mongodb
       auto-index-creation: true
+  rabbitmq:
+    addresses: rabbitmq:5672
