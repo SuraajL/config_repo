@@ -14,7 +14,7 @@ spring:
     mongodb:
       database: taxCalc
       port: 27017
-      host: 127.0.0.1
+      host: mongodb
       authentication-database: admin
       username: rootuser
       password: rootpass
