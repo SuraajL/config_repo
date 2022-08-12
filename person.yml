@@ -12,8 +12,10 @@ spring:
     name: person
   data:
     mongodb:
+      database: taxCalc
+      port: 27017
+      host: mongodb
       authentication-database: admin
       username: rootuser
       password: rootpass
       auto-index-creation: true
-      uri: mongodb://rootuser:rootpass@mongodb:27017/taxCalc
