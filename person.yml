@@ -14,4 +14,4 @@ spring:
       host: localhost
       auto-index-creation: true
   rabbitmq:
-    addresses: rabbitmq:5672
+    addresses: localhost:5672
