@@ -11,7 +11,7 @@ spring:
       password: rootpass
       database: taxCalc
       port: 27017
-      host: localhost
+      host: mongodb
       auto-index-creation: true
   rabbitmq:
-    addresses: localhost:5672
+    addresses: rabbitmq:5672
